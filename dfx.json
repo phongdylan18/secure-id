@@ -1,0 +1,29 @@
+{
+  "canisters": {
+    "SecureID_backend": {
+      "main": "src/SecureID_backend/main.mo",
+      "type": "motoko"
+    },
+    "SecureID_frontend": {
+      "dependencies": [
+        "SecureID_backend"
+      ],
+      "source": [
+        "src/SecureID_frontend/dist"
+      ],
+      "type": "assets"
+    },
+    "internet_identity": {
+      "type": "pull",
+      "id": "rdmx6-jaaaa-aaaaa-aaadq-cai"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
