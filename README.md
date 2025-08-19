@@ -224,86 +224,8 @@ cd src/SecureID_frontend
 npm run build
 dfx deploy SecureID_frontend --network ic
 ```
-
-## 🔒 Security Considerations
-
-### Data Protection
-- All sensitive data is encrypted client-side
-- Encryption keys never leave the user's device
-- Backend stores only encrypted data
-- No plaintext passwords or secrets in logs
-
-### Authentication
-- Uses Internet Identity for secure authentication
-- No passwords or personal data required
-- Biometric authentication support
-- Session management with auto-lock
-
-### Best Practices
-- Regular security audits
-- Dependency updates
-- Input validation
-- Error handling
-- Secure random generation
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Write tests
-5. Submit a pull request
-
-### Development Guidelines
-- Follow TypeScript best practices
-- Use Tailwind CSS for styling
-- Write comprehensive tests
-- Document new features
-- Follow security guidelines
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 🆘 Support
-
-For support, please:
-1. Check the documentation
-2. Search existing issues
-3. Create a new issue with details
-4. Join our community discussions
-
-## 🗺️ Roadmap
-
-### Phase 1 (Current)
-- [x] Basic password management
-- [x] TOTP authenticator
-- [x] Secure notes
-- [x] Modern UI/UX
-- [x] Internet Identity integration
-
-### Phase 2 (Planned)
-- [ ] VetKD full integration
-- [ ] Password sharing capabilities
-- [ ] Advanced search and filtering
-- [ ] Import/export functionality
-- [ ] Mobile app
-
-### Phase 3 (Future)
-- [ ] Team collaboration features
-- [ ] Advanced security analytics
-- [ ] Browser extension
-- [ ] API for third-party integrations
-- [ ] Enterprise features
-
-## 🏆 Acknowledgments
-
-- Internet Computer Protocol for the decentralized infrastructure
-- Radix UI for accessible component primitives
-- Tailwind CSS for the styling framework
-- The open-source community for inspiration and tools
-
----
+## Contact
+For any questions, please reach out at [dienvophong18@gmail.com] or open an issue.
 
 **SecureID** - Your secure, decentralized password manager on the Internet Computer.
 
